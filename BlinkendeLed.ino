@@ -8,3 +8,7 @@ void loop() {
   digitalWrite(14, LOW);  // sets the digital pin 13 off
   delay(1000);            // 1000ms warten
 }
+
+void Test() {
+  printf("Test");
+}
