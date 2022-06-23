@@ -1,14 +1,10 @@
+
+
 void setup() {
   pinMode(14, OUTPUT);    // sets the digital pin 13 as output
+  pinMode(0, INPUT);      // 0 als Input
 }
 
 void loop() {
-  digitalWrite(14, HIGH); // sets the digital pin 13 on
-  delay(1000);            // 1000ms warten
-  digitalWrite(14, LOW);  // sets the digital pin 13 off
-  delay(1000);            // 1000ms warten
-}
-
-void Test() {
-  printf("Test");
+  digitalWrite(14, digitalRead(0)); // Eingabe wird ausgegeben
 }
