@@ -4,7 +4,7 @@ void setup() {
 
 void loop() {
   digitalWrite(14, HIGH); // sets the digital pin 13 on
-  delay(1000);            // waits for a second
+  delay(1000);            // 1000ms warten
   digitalWrite(14, LOW);  // sets the digital pin 13 off
-  delay(1000);            // waits for a second
+  delay(1000);            // 1000ms warten
 }
